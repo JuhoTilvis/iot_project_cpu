@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPU Temperature Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Raspberry Pi's CPU Temperature</h1>
+    </header>
+
+    <main>
+      <iframe
+        id="temp"
+        width="450"
+        height="260"
+        src="https://thingspeak.com/channels/2119319/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <footer>
+      <div class="credits">
+        <p>Tekijät</p>
+        <p>Oliwer Kronqvist Juho Tilvis Atte Kemppinen</p>
+      </div>
+    </footer>
+  </body>
+</html>
